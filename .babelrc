@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/preset-typescript","@fower/babel-preset-fower"]
+}

@@ -1,5 +1,6 @@
 ---
-import Tour from '../components/Tour.astro';
+import {Counter} from "../counter/counter.tsx"
+import {FowerComponent} from "../counter/fowercomponent.tsx"
 ---
 
 <!doctype html>
@@ -28,11 +29,11 @@ import Tour from '../components/Tour.astro';
         <header>
             <div>
                 <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+                <h1>Welcome to eheu.dev!!</h1>
             </div>
         </header>
-
-        <Tour />
+        <FowerComponent />
+        <Counter:load/>
     </main>
 </body>
 </html>

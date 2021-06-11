@@ -4,9 +4,23 @@
   "private": true,
   "scripts": {
     "start": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "watch": "watch 'npm run build && npm run deploy' ./src"
   },
   "devDependencies": {
-    "astro": "^0.12.9"
+    "@astrojs/renderer-react": "^0.1.0",
+    "@babel/preset-typescript": "^7.14.5",
+    "@fower/babel-preset-fower": "^1.21.0",
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@types/react": "^17.0.11",
+    "astro": "^0.12.9",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.5",
+    "@fower/react": "^1.21.0",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "zustand": "^3.5.2"
   }
 }
