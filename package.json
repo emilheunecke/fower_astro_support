@@ -5,6 +5,7 @@
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
+    "deploy": "scp -r dist/* root@eheu.dev:/srv/static/eheu.dev/",
     "watch": "watch 'npm run build && npm run deploy' ./src"
   },
   "devDependencies": {
